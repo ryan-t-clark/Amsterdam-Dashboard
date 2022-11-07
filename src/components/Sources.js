@@ -25,6 +25,9 @@ const Sources = () => {
                 https://data.amsterdam.nl/ 
             </a>
             <br />
+            <a href="https://d3.harvard.edu/platform-digit/submission/amsterdam-smart-city-asc/">
+                https://d3.harvard.edu/platform-digit/submission/amsterdam-smart-city-asc/
+            </a>
         </div>
 
     )

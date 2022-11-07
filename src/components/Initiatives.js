@@ -21,7 +21,7 @@ const Initiatives = () => {
             </p>
 
             <h3>...</h3>
-            <p>More will go here</p>
+            <p>TODO: add more projects</p>
         </div>
 
     )
