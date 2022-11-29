@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 import '../App.css';
 
+import Spinner from 'react-spinkit';
+
 import axios from 'axios';
 
 const Dashboard = () => {
@@ -66,7 +68,7 @@ const Dashboard = () => {
     if (loading) {
         return (
             <div className="container">
-                <p>Loading...</p>
+                <Spinner name="wandering-cubes" style={{ width: 100, height: 100 }} />
             </div>
         )
     } else if (error) {
@@ -80,7 +82,6 @@ const Dashboard = () => {
         return (
             <div className="container">
                 <h2 className="center">Dashboard</h2>
-    
                 <a href="https://api.data.amsterdam.nl/api/">https://api.data.amsterdam.nl/api/</a>
                 <p>This website provides access to all API's provided by the city of Amsterdam</p>
                 {buildTable()}
