@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 
+import { Link } from 'react-router-dom';
+
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -13,11 +15,11 @@ const Navbar = () => {
                     <Typography variant="h4" padding="10px">
                         Amsterdam
                     </Typography>
-                    <a href="/" className="navlink">Home</a>
-                    <a href="/history" className="navlink">History</a>
-                    <a href="/initiatives" className="navlink">Initiatives</a>
-                    <a href="/dashboard" className="navlink">Dashboard</a>
-                    <a href="/sources" className="navlink">Sources</a>
+                    <Link to="/" className="navlink">Home</Link>
+                    <Link to="/history" className="navlink">History</Link>
+                    <Link to="/initiatives" className="navlink">Initiatives</Link>
+                    <Link to="/dashboard" className="navlink">Dashboard</Link>
+                    <Link to="/sources" className="navlink">Sources</Link>
                 </Toolbar>
             </AppBar>
     )

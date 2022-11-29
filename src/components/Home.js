@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 
+import { Link } from 'react-router-dom';
+
 const Home = () => {
     return (
         <div className="container">
@@ -10,25 +12,25 @@ const Home = () => {
                  has led the city to gain that title.</p>
 
             <br />
-            <a href="/history">History</a>
-            <p>Amsterdam's smart city initiatives have been ongoing for over a decade, and weren't always what they are today. Click <a href="/history">here</a> to read
+            <Link to="/history">History</Link>
+            <p>Amsterdam's smart city initiatives have been ongoing for over a decade, and weren't always what they are today. Click <Link to="/history">here</Link> to read
                 about the history behind them.
             </p>
 
             <br />
-            <a href="/initiatives">Initiatives</a>
-            <p>The local government in Amsterdam has done a lot to try to make the city a leader in technology. Click <a href="/initiatives">here</a> to read
+            <Link to="/initiatives">Initiatives</Link>
+            <p>The local government in Amsterdam has done a lot to try to make the city a leader in technology. Click <Link to="/initiatives">here</Link> to read
                 about the many initiatives the city has undertook.
             </p>
 
             <br />
-            <a href="/dashboard">Dashboard</a>
-            <p>The city of Amsterdam provides lots of live data feeds available to the public. Click <a href="/dashboard">here</a> to view some of them.
+            <Link to="/dashboard">Dashboard</Link>
+            <p>The city of Amsterdam provides lots of live data feeds available to the public. Click <Link to="/dashboard">here</Link> to view some of them.
             </p>
 
             <br />
-            <a href="/sources">Sources</a>
-            <p>Click <a href="/sources">here</a> to view all sources used to build this website.
+            <Link to="/sources">Sources</Link>
+            <p>Click <Link to="/sources">here</Link> to view all sources used to build this website.
             </p>
         </div>
 
