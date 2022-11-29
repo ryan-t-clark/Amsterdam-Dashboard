@@ -6,6 +6,7 @@ import History from './components/History';
 import Initiatives from './components/Initiatives';
 import Dashboard from './components/Dashboard';
 import Sources from './components/Sources';
+import NotFound from './components/NotFound'
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/initiatives" element={<Initiatives />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/sources" element={<Sources />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
