@@ -24,9 +24,57 @@ const History = () => {
                     </TimelineSeparator>
                     <TimelineContent>
                         <Typography variant="h6" component="span">
+                            2006
+                        </Typography>
+                        <Typography>AIM foundation established</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography variant="h6" component="span">
+                            2008
+                        </Typography>
+                        <Typography>Climate Office and the ICT Cluster of Amsterdam Innovation Motor established</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography variant="h6" component="span">
                             2009
                         </Typography>
-                        <Typography>Amsterdam launches strategy to become a smart city</Typography>
+                        <Typography>Amsterdam launches strategy to become a smart city (Amsterdam Smart City)</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography variant="h6" component="span">
+                            2012
+                        </Typography>
+                        <Typography>The Amsterdam Innovation Motor merged into the Amsterdam Smart City (ASC) public-private network</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography variant="h6" component="span">
+                            2013
+                        </Typography>
+                        <Typography>AIM and KennisKring Amsterdam (Amsterdam Knowledge Network Foundation) merged to become the Amsertdam Economic Board</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>

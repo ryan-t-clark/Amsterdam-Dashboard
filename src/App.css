@@ -37,3 +37,17 @@
 .nav a.inactive {
   font-style: italic;
 }
+
+.nav a:hover {
+  border: 2px solid transparent;
+  color: indigo;
+  transform: scale(1.05);
+  transition: 0.5s transform ease-in;
+  will-change: transform;
+}
+
+.nav a:hover::after {
+  transform: translate(0, 0);
+}
+
+
