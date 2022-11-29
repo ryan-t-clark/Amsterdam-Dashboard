@@ -16,7 +16,7 @@ function App() {
 
       <Navbar />
 
-      <br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br />
 
       <Routes>
         <Route exact path='/' element={<Home />} />

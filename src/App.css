@@ -5,8 +5,8 @@
 
 .container {
   margin: auto;
-  width: 80%;
-  padding: 10px;
+  width: 90%;
+  padding: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -17,4 +17,23 @@
 .card {
   padding: 15px;
   margin: 10px;
+}
+
+.nav {
+  margin-bottom: 25px;
+}
+
+.nav a {
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav a.active {
+  color: #fff;
+  background: #7600dc;
+}
+.nav a.inactive {
+  font-style: italic;
 }
