@@ -508,11 +508,31 @@ const Dashboard = () => {
                 <p>All data shown below is retrieved through Amsterdam's official data website which can be found&nbsp;
                   <a href="https://onderzoek.amsterdam.nl/zoek?categorie=dossier">here. (external link)</a>
                 </p>
+                <h2>CO2 Emissions Data:</h2>
+                <p>The data below represents the overall output of CO2 emissions over a 4 year period.
+                  CO2 emissions are measured in kilotons of CO2 released by four main emission types which
+                  contribute the vast majority of CO2 output in Amsterdam. The four main contributors to 
+                  CO2 emissions are Electricity, Fuel Consumption, Gas Consumption, and Greenhouse Gases.
+                  CO2 emissions caused by use of electricity stem from the generation of electric power for
+                  various different purposes such as industry, construction, commercial and public services, 
+                  household power, etc. CO2 emissions caused by Fuel Consumption stem from exhuast fumes
+                  created by vehicles for various different usages such as transportation, shipping, Fishing, etc.
+                  CO2 emissions caused by Gas Consumption stems from a plethora of different uses, such as household
+                  natural gas, construction equipment, public utilities, etc. Lastly, Emissions from miscilaneous
+                  Greenhouse Gases stem from a wide variety of sources, from backyard firepits to farm animals.
+                </p>
                 <Grid container spacing={2}>
                   <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
                     <Card variant="outlined">
                       <CardContent>
                         <Bar options={totalCO2options} data={totalCO2Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Bar options={gasConsumptionCO2Options} data={gasConsumptionCO2Data} />
                       </CardContent>
                     </Card>
                   </Grid>
@@ -548,8 +568,13 @@ const Dashboard = () => {
 
                 <br /><br />
                 
+                <h2>CO2 Emissions Breakdown:</h2>
+                <p>The graphs below delineates the breakdown of each of the four main contributors of CO2 emissions,
+                  showing which contributor has been the main culprit in CO2 emissions over each of the four years
+                  of data collection. 
+                </p>
                 <Grid container spacing={2}>
-                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                  <Grid item xs={12} justifyContent="center" direction="row" alignItems="center">
                     <Card variant="outlined">
                       <CardContent>
                         <Doughnut options={totalBreakdownOptions} data={totalBreakdownData} />
@@ -588,6 +613,12 @@ const Dashboard = () => {
 
                 <br /><br />
 
+                <h2>Behavioral Data:</h2>
+                <p>The data below illustrates the growth AIM has been able to affect through its various
+                  initiatives resulting in increased Disposable Income. The data showcases how the population
+                  has elected to use this disposable income to further the efforts of sustainability and
+                  furthering education.
+                </p>
                 <Grid container spacing={2}>
                   <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
                     <Card variant="outlined">
@@ -607,13 +638,6 @@ const Dashboard = () => {
                     <Card variant="outlined">
                       <CardContent>
                         <Bar options={universityOptions} data={universityData} />
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
-                    <Card variant="outlined">
-                      <CardContent>
-                        <Bar options={gasConsumptionCO2Options} data={gasConsumptionCO2Data} />
                       </CardContent>
                     </Card>
                   </Grid>
