@@ -53,7 +53,7 @@ const Dashboard = () => {
         {
           label: 'CO2 Emissions in kilotons',
           data: [1964.859, 1957.313, 1687.722, 1316.134],
-          backgroundColor: 'rgba(255, 99, 132, 0.5)' 
+          backgroundColor: 'rgba(0, 125, 218, 0.76)' 
         }
       ] 
     };
@@ -80,7 +80,7 @@ const Dashboard = () => {
         {
           label: 'CO2 Emissions in kilotons',
           data: [851.0425866, 861.0811429, 816.0609313, 729.2723672],
-          backgroundColor: 'rgba(255, 99, 132, 0.5)' 
+          backgroundColor: 'rgba(124, 81, 37, 0.63)' 
         }
       ] 
     };
@@ -107,7 +107,7 @@ const Dashboard = () => {
         {
           label: 'CO2 Emissions in kilotons',
           data: [1390.959, 1400.35, 1352.224, 1296.662],
-          backgroundColor: 'rgba(255, 99, 132, 0.5)' 
+          backgroundColor: 'rgba(139, 33, 0, 0.7)' 
         }
       ] 
     };
@@ -134,7 +134,7 @@ const Dashboard = () => {
         {
           label: 'CO2 Emissions in kilotons',
           data: [155.6885438, 147.3731247, 151.0370567, 148.051483],
-          backgroundColor: 'rgba(255, 99, 132, 0.5)' 
+          backgroundColor: 'rgba(4, 63, 1, 0.7)' 
         }
       ] 
     };
@@ -161,7 +161,7 @@ const Dashboard = () => {
         {
           label: 'CO2 Emissions in kilotons',
           data: [4987.041329, 4963.501531, 4435.789474, 3541.710158],
-          backgroundColor: 'rgba(255, 99, 132, 0.5)' 
+          backgroundColor: 'rgba(54, 40, 174, 0.8)' 
         }
       ] 
     };
@@ -189,10 +189,10 @@ const Dashboard = () => {
           label: 'CO2 Emissions in kilotons',
           data: [6926.028, 3257.457028, 5440.195, 602.1502082],
           backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
+            'rgba(0, 125, 218, 0.76)',
+            'rgba(124, 81, 37, 0.63)',
+            'rgba(139, 33, 0, 0.7)',
+            'rgba(4, 63, 1, 0.7)'
           ]
         }
       ]
@@ -221,10 +221,10 @@ const Dashboard = () => {
           label: 'CO2 Emissions in kilotons',
           data: [1964.859, 851.0425866, 1390.959, 155.6885438],
           backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
+            'rgba(0, 125, 218, 0.76)',
+            'rgba(124, 81, 37, 0.63)',
+            'rgba(139, 33, 0, 0.7)',
+            'rgba(4, 63, 1, 0.7)'
           ]
         }
       ]
@@ -253,10 +253,10 @@ const Dashboard = () => {
           label: 'CO2 Emissions in kilotons',
           data: [1957.313, 861.0811429, 1400.35, 147.3731247],
           backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
+            'rgba(0, 125, 218, 0.76)',
+            'rgba(124, 81, 37, 0.63)',
+            'rgba(139, 33, 0, 0.7)',
+            'rgba(4, 63, 1, 0.7)'
           ]
         }
       ]
@@ -285,10 +285,10 @@ const Dashboard = () => {
           label: 'CO2 Emissions in kilotons',
           data: [1687.722, 816.0609313, 1352.224, 151.0370567],
           backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
+            'rgba(0, 125, 218, 0.76)',
+            'rgba(124, 81, 37, 0.63)',
+            'rgba(139, 33, 0, 0.7)',
+            'rgba(4, 63, 1, 0.7)'
           ]
         }
       ]
@@ -317,10 +317,10 @@ const Dashboard = () => {
           label: 'CO2 Emissions in kilotons',
           data: [1316.134, 729.2723672, 1296.662, 148.051483],
           backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
+            'rgba(0, 125, 218, 0.76)',
+            'rgba(124, 81, 37, 0.63)',
+            'rgba(139, 33, 0, 0.7)',
+            'rgba(4, 63, 1, 0.7)'
           ]
         }
       ]
@@ -348,22 +348,22 @@ const Dashboard = () => {
         {
           label: 'Electric commercial vehicles',
           data: [118, 146, 398, 0, 0],
-          backgroundColor: 'rgba(255, 240, 132, 0.7)' 
+          backgroundColor: 'rgba(178, 254, 255, 0.64)' 
         },
         {
           label: 'Natural gas (CNG) passenger cars',
           data: [246, 274, 360, 0, 0],
-          backgroundColor: 'rgba(150, 70, 255, 0.7)' 
+          backgroundColor: 'rgba(110, 209, 97, 0.64)' 
         },
         {
           label: 'Electric passenger cars (FEV and PHEV)',
           data: [3812, 5014, 5436, 7920, 10891],
-          backgroundColor: 'rgba(23, 44, 155, 0.7)' 
+          backgroundColor: 'rgba(0, 178, 228, 0.64)' 
         },
         {
           label: 'Hybrid passenger cars',
           data: [4644, 5242, 5663, 0, 0],
-          backgroundColor: 'rgba(222, 33, 230, 0.7)' 
+          backgroundColor: 'rgba(0, 96, 162, 0.64)' 
         },
       ] 
     };
@@ -395,27 +395,27 @@ const Dashboard = () => {
         {
           label: 'Single parent family',
           data: [29.8, 30.8, 32.4, 34.1, 35.4],
-          backgroundColor: 'rgba(150, 70, 255, 0.7)' 
+          backgroundColor: 'rgba(160, 107, 6, 0.64)' 
         },
         {
           label: 'Per household (excl. students)',
           data: [36.3, 36.8, 38.3, 39.8, 40.3],
-          backgroundColor: 'rgba(23, 44, 155, 0.7)' 
+          backgroundColor: 'rgba(89, 0, 0, 0.64)' 
         },
         {
           label: 'Couple without children',
           data: [48.8, 49.0, 51.6, 53.2, 54.2],
-          backgroundColor: 'rgba(222, 33, 230, 0.7)' 
+          backgroundColor: 'rgba(46, 83, 23, 0.64)' 
         },
         {
           label: 'Multi-person household',
           data: [48.1, 49.3, 51.6, 55.5, 56.1],
-          backgroundColor: 'rgba(222, 79, 20, 0.7)' 
+          backgroundColor: 'rgba(36, 146, 115, 0.64)' 
         },
         {
           label: 'Couple with children',
           data: [58.9, 60.8, 63.6, 66.9, 68.5],
-          backgroundColor: 'rgba(222, 100, 230, 0.7)' 
+          backgroundColor: 'rgba(116, 180, 237, 0.64)' 
         },
       ] 
     };
@@ -450,12 +450,12 @@ const Dashboard = () => {
         {
           label: 'University of Amsterdam (UvA)',
           data: [29798, 31153, 31216, 30618, 31274, 32630, 34411, 35425, 38940],
-          backgroundColor: 'rgba(255, 240, 132, 0.7)' 
+          backgroundColor: 'rgba(139, 0, 173, 0.64)' 
         },
         {
           label: 'Free University (VU)',
           data: [23589, 23653, 23684, 22924, 22061, 22773, 24200, 26569, 29796],
-          backgroundColor: 'rgba(150, 70, 255, 0.7)' 
+          backgroundColor: 'rgba(136, 83, 149, 0.59)' 
         }
       ] 
     };
@@ -490,7 +490,7 @@ const Dashboard = () => {
         {
           label: 'Private gas consumption',
           data: [558, 534, 530, 542, 531],
-          backgroundColor: 'rgba(30, 240, 132, 0.7)' 
+          backgroundColor: 'rgba(99, 188, 255, 0.61)' 
         },
         {
           label: 'Business gas consumption',
