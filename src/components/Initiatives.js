@@ -6,6 +6,11 @@ import { Link } from 'react-router-dom';
 import { Grid } from '@mui/material';
 import { Card } from '@mui/material';
 import { CardContent } from '@mui/material';
+import { CardMedia } from '@mui/material'
+
+import amsterdam_image_one from '../static/amsterdam_images/amsterdam_image_one.jpg';
+import amsterdam_image_five from '../static/amsterdam_images/amsterdam_image_five.jpg';
+import amsterdam_image_six from '../static/amsterdam_images/amsterdam_image_six.jpg';
 
 const Initiatives = () => {
     return (
@@ -31,7 +36,13 @@ const Initiatives = () => {
                 </Grid>
                 <Grid item xs={4} justifyContent="center" direction="row" alignItems="center">
                     <Card>
-                        <h3>IMAGE HERE</h3>
+                        <CardContent>
+                            <CardMedia 
+                                    component="img"
+                                    height="200"
+                                    image={amsterdam_image_five}
+                                />
+                        </CardContent>
                     </Card>
                 </Grid>
                 <Grid item xs={12} justifyContent="center" direction="row" alignItems="center">
@@ -66,7 +77,13 @@ const Initiatives = () => {
                 </Grid>
                 <Grid item xs={4} justifyContent="center" direction="row" alignItems="center">
                     <Card>
-                        <h3>IMAGE HERE</h3>
+                        <CardContent>
+                            <CardMedia 
+                                component="img"
+                                height="200"
+                                image={amsterdam_image_six}
+                            />
+                        </CardContent>
                     </Card>
                 </Grid>
                 <Grid item xs={8} justifyContent="center" direction="row" alignItems="center">
@@ -140,7 +157,13 @@ const Initiatives = () => {
                 </Grid>
                 <Grid item xs={4} justifyContent="center" direction="row" alignItems="center">
                     <Card>
-                        <h3>IMAGE HERE</h3>
+                        <CardContent>
+                            <CardMedia 
+                                component="img"
+                                height="200"
+                                image={amsterdam_image_one}
+                            />
+                        </CardContent>
                     </Card>
                 </Grid>
             </Grid>
