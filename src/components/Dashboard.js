@@ -643,6 +643,8 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
 
+                <br /><br />
+
                 <GasTable />
       </div>    
     )
