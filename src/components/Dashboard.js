@@ -574,10 +574,10 @@ const Dashboard = () => {
                   of data collection. 
                 </p>
                 <Grid container spacing={2}>
-                  <Grid item xs={12} justifyContent="center" direction="row" alignItems="center">
+                  <Grid item xs={12} justifyContent="center" direction="row" alignItems="center" marginRight={70} marginLeft={70}>
                     <Card variant="outlined">
                       <CardContent>
-                        <Doughnut options={totalBreakdownOptions} data={totalBreakdownData} />
+                        <Doughnut options={totalBreakdownOptions} data={totalBreakdownData}/>
                       </CardContent>
                     </Card>
                   </Grid>

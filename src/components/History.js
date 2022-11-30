@@ -26,7 +26,11 @@ const History = () => {
                         <Typography variant="h6" component="span">
                             2006
                         </Typography>
-                        <Typography>AIM foundation established</Typography>
+                        <Typography>Amsterdam Innovation Motor (AIM) established. AIM was founded
+                           as an effort to drive and strengthen a knowledge-based economy in the
+                           Amsterdam Metropolitan Area. AIM's goal is to bring together academic,
+                           commercial, and public sector partners on key areas for growth.
+                        </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
