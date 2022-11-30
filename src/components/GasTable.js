@@ -99,6 +99,8 @@ const GasTable = () => {
     } else {
         return (
             <div className="container">
+                <p>Data for this table is retrieved from Amsterdam's official data API.</p>
+                <a href="https://api.data.amsterdam.nl/api/">https://api.data.amsterdam.nl/api/</a>
                 {buildTable()}
                 <span>
                     <button onClick={getMore}>Get More Data</button>

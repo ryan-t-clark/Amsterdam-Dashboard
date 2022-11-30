@@ -13,6 +13,10 @@ import {
 import { Bar, Doughnut } from 'react-chartjs-2';
 import '../App.css';
 
+import { Grid } from '@mui/material';
+import { Card } from '@mui/material';
+import { CardContent } from '@mui/material';
+
 import GasTable from './GasTable';
 
 ChartJS.register(
@@ -500,22 +504,121 @@ const Dashboard = () => {
     return (
       <div className="container">
                 <h2 className="center">Dashboard</h2>
-                <a href="https://api.data.amsterdam.nl/api/">https://api.data.amsterdam.nl/api/</a>
-                <p>This website provides access to all API's provided by the city of Amsterdam</p>
-                <Bar options={totalCO2options} data={totalCO2Data} />
-                <Bar options={electricityCO2options} data={electricityCO2Data} />
-                <Bar options={fuelCO2options} data={fuelCO2Data} />
-                <Bar options={gasCO2options} data={gasCO2Data} />
-                <Bar options={greenhouseCO2options} data={greenhouseCO2Data} />
-                <Doughnut options={totalBreakdownOptions} data={totalBreakdownData} />
-                <Doughnut options={emissionsBreakdown2017Options} data={emissionsBreakdown2017Data} />
-                <Doughnut options={emissionsBreakdown2018Options} data={emissionsBreakdown2018Data} />
-                <Doughnut options={emissionsBreakdown2019Options} data={emissionsBreakdown2019Data} />
-                <Doughnut options={emissionsBreakdown2020Options} data={emissionsBreakdown2020Data} />
-                <Bar options={sustainableCarsOptions} data={sustainableCarsData} />
-                <Bar options={disposableIncomeOptions} data={disposableIncomeData} />
-                <Bar options={universityOptions} data={universityData} />
-                <Bar options={gasConsumptionCO2Options} data={gasConsumptionCO2Data} />
+                
+                <p>All data shown below is retrieved through Amsterdam's official data website which can be found&nbsp;
+                  <a href="https://onderzoek.amsterdam.nl/zoek?categorie=dossier">here. (external link)</a>
+                </p>
+                <Grid container spacing={2}>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Bar options={totalCO2options} data={totalCO2Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Bar options={electricityCO2options} data={electricityCO2Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Bar options={fuelCO2options} data={fuelCO2Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                      <Bar options={gasCO2options} data={gasCO2Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                      <Bar options={greenhouseCO2options} data={greenhouseCO2Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                </Grid>
+
+                <br /><br />
+                
+                <Grid container spacing={2}>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Doughnut options={totalBreakdownOptions} data={totalBreakdownData} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Doughnut options={emissionsBreakdown2017Options} data={emissionsBreakdown2017Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Doughnut options={emissionsBreakdown2018Options} data={emissionsBreakdown2018Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Doughnut options={emissionsBreakdown2019Options} data={emissionsBreakdown2019Data} /> 
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Doughnut options={emissionsBreakdown2020Options} data={emissionsBreakdown2020Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                </Grid>
+
+                <br /><br />
+
+                <Grid container spacing={2}>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Bar options={sustainableCarsOptions} data={sustainableCarsData} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Bar options={disposableIncomeOptions} data={disposableIncomeData} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Bar options={universityOptions} data={universityData} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                      <CardContent>
+                        <Bar options={gasConsumptionCO2Options} data={gasConsumptionCO2Data} />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                </Grid>
+
                 <GasTable />
       </div>    
     )
