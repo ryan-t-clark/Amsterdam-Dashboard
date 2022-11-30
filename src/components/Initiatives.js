@@ -166,6 +166,60 @@ const Initiatives = () => {
                         </CardContent>
                     </Card>
                 </Grid>
+                <Grid item xs={12} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                        <CardContent>
+                        <h3>Code the Streets</h3>
+                        <p>
+                            Code the Streets is a EU-sponsored mobilty intiative which will ran from October
+                            to November 2021. The initiative asked participating drivers to test new functions
+                            in the traffic navigation app TomTomAmiGO and Mercedes-Benz' navigation planner, to
+                            get a better understanding of how to route motorists in a more environmentally friendly way.
+                            Pertaining to Amsterdam, the city of Amsterdam has stated that this initiative will aid them
+                            in examining how Amsterdam's historic center could be better protected by rerouting heavy vehicles
+                            away from vulnerable infrastructure, or by creating dynamic loading and unloading zones based on 
+                            vehicle types and loads. additionally, Helsinki is currently exploring an introduction of a 
+                            'congestion charge' and wants to examine the role mapping technology can play in developing this.
+                        </p>
+                        <a href='https://cities-today.com/helsinki-and-amsterdam-invite-motorists-to-code-the-streets/'>
+                            Source (external link)
+                        </a>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                <Grid item xs={12} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                        <CardContent>
+                        <h3>Amsterdam Institute for Advanced Metropolitan Solutions</h3>
+                        <p>
+                            The AMS Institute's goal is to create sustainable metropolitan solutions by
+                            researching and developing new ideas furthering Amsterdam's goal of becoming
+                            a more livable, resilient, sustainable, and economically stable city.
+                        </p>
+                        <a href='https://www.ams-institute.org/'>
+                            Source (external link)
+                        </a>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                <Grid item xs={12} justifyContent="center" direction="row" alignItems="center">
+                    <Card variant="outlined">
+                        <CardContent>
+                        <h3>Merineterrein Amsterdam</h3>
+                        <p>
+                        Marineterrein Amsterdam is a test area and urban district for learning, 
+                        working and living in a liveable city. This special and flexible approach 
+                        is gradually developing the test area into an urban district with space 
+                        for open innovation, special forms of housing, sports, recreation and 
+                        greenery. The impact of what we do here is noticeable in the city, 
+                        in the country and in the world.
+                        </p>
+                        <a href='https://amsterdamsmartcity.com/organisations/marineterrein-amsterdam'>
+                            Source (external link)
+                        </a>
+                        </CardContent>
+                    </Card>
+                </Grid>
             </Grid>
         </div>
 

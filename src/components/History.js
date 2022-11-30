@@ -88,18 +88,6 @@ const History = () => {
                     </TimelineSeparator>
                     <TimelineContent>
                         <Typography variant="h6" component="span">
-                            20xx
-                        </Typography>
-                        <Typography>TODO: add more significant achievements</Typography>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineSeparator>
-                    <TimelineDot />
-                    <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Typography variant="h6" component="span">
                             2015
                         </Typography>
                         <Typography>The Crowd Monitoring System Amsterdam (CSMA), which eventually becomes the Public Eye Project, is used for the first time.</Typography>
@@ -119,16 +107,53 @@ const History = () => {
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineSeparator>
-                    <TimelineDot color="success"/>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography variant="h6" component="span">
+                            2021
+                        </Typography>
+                        <Typography>'Code the streets' initiative started to develope more socially responsible driving routes</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
                         <Typography variant="h6" component="span">
                             2022
                         </Typography>
+                        <Typography>Amsterdam requires everyone register their sensors publicly</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography variant="h6" component="span">
+                            Current Day
+                        </Typography>
                         <Typography>Today, Amsterdam maintains its efforts, continuing to launch smart city initiatives</Typography>
                     </TimelineContent>
                 </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot color="success"/>
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography variant="h6" component="span">
+                            Future - 2023
+                        </Typography>
+                        <Typography>To create a safer and more lieable city, Amsterdam will reduce speeds limits from 50 to 30 km/h and monitor the impact of that change</Typography>
+                    </TimelineContent>
+                </TimelineItem>
                 </Timeline>
+                
 
         </div>
     )
