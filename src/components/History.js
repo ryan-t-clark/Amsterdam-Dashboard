@@ -74,7 +74,7 @@ const History = () => {
                         <Typography variant="h6" component="span">
                             2013
                         </Typography>
-                        <Typography>AIM and KennisKring Amsterdam (Amsterdam Knowledge Network Foundation) merged to become the Amsertdam Economic Board</Typography>
+                        <Typography>AIM and KennisKring Amsterdam (Amsterdam Knowledge Network Foundation) merged to become the Amsterdam Economic Board</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -87,6 +87,18 @@ const History = () => {
                             20xx
                         </Typography>
                         <Typography>TODO: add more significant achievements</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography variant="h6" component="span">
+                            2015
+                        </Typography>
+                        <Typography>The Crowd Monitoring System Amsterdam (CSMA), which eventually becomes the Public Eye Project, is used for the first time.</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
