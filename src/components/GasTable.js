@@ -30,6 +30,26 @@ const GasTable = () => {
 
     },[]);
 
+    async function getMore() {
+        try {
+            const url = `https://api.data.amsterdam.nl/v1/aardgasverbruik/mra_liander/?page=${page}`
+            let result = await axios.get(url);
+            let newData = data.concat(result.data._embedded.mra_liander);
+            setPage(page + 1);
+            setData(newData);
+        } catch (e) {
+            setError(true);
+        }
+    }
+
+    function showLess() {
+        if (page > 2) {
+            setPage(page - 1);
+            let newData = data.slice(0,(page-1)*(20));
+            setData(newData);
+        }
+    }
+
     const buildTable = () => {
         return (
             <TableContainer component={Paper}>
@@ -81,9 +101,10 @@ const GasTable = () => {
             <div className="container">
                 {buildTable()}
                 <span>
-                    <button>Get More Data</button>
-                    <button>Show Less Data</button>
+                    <button onClick={getMore}>Get More Data</button>
+                    <button onClick={showLess}>Show Less Data</button>
                 </span>
+                <p>Now showing {(page-1)*(20)} elements</p>
             </div>    
         )
     }
