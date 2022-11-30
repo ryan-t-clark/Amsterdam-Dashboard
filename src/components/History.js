@@ -114,7 +114,7 @@ const History = () => {
                         <Typography variant="h6" component="span">
                             2021
                         </Typography>
-                        <Typography>'Code the streets' initiative started to develope more socially responsible driving routes</Typography>
+                        <Typography>'Code the streets' initiative started to develop more socially responsible driving routes</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -126,7 +126,7 @@ const History = () => {
                         <Typography variant="h6" component="span">
                             2022
                         </Typography>
-                        <Typography>Amsterdam requires everyone register their sensors publicly</Typography>
+                        <Typography>Amsterdam, in an attempt to build their sensor and data network, requires everyone register their sensors publicly</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -149,7 +149,7 @@ const History = () => {
                         <Typography variant="h6" component="span">
                             Future - 2023
                         </Typography>
-                        <Typography>To create a safer and more lieable city, Amsterdam will reduce speeds limits from 50 to 30 km/h and monitor the impact of that change</Typography>
+                        <Typography>Amsterdam has many plans to continue smart city projects into the future. One such project aims to reduce speeds limits from 50 to 30 km/h and monitor the impact of that change</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 </Timeline>

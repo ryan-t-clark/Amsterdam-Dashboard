@@ -516,10 +516,10 @@ const Dashboard = () => {
                   CO2 emissions caused by use of electricity stem from the generation of electric power for
                   various different purposes such as industry, construction, commercial and public services, 
                   household power, etc. CO2 emissions caused by Fuel Consumption stem from exhuast fumes
-                  created by vehicles for various different usages such as transportation, shipping, Fishing, etc.
+                  created by vehicles for various different usages such as transportation, shipping, fishing, etc.
                   CO2 emissions caused by Gas Consumption stems from a plethora of different uses, such as household
-                  natural gas, construction equipment, public utilities, etc. Lastly, Emissions from miscilaneous
-                  Greenhouse Gases stem from a wide variety of sources, from backyard firepits to farm animals.
+                  natural gas, construction equipment, public utilities, etc. Lastly, Emissions from miscellaneous
+                  greenhouse gases stem from a wide variety of sources, from backyard firepits to farm animals.
                 </p>
                 <Grid container spacing={2}>
                   <Grid item xs={6} justifyContent="center" direction="row" alignItems="center">

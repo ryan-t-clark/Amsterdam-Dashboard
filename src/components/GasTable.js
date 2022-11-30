@@ -102,6 +102,7 @@ const GasTable = () => {
                 <p>Data for this table is retrieved from Amsterdam's official data API.</p>
                 <a href="https://api.data.amsterdam.nl/api/">https://api.data.amsterdam.nl/api/</a>
                 <h3>Natural Gas Consumption</h3>
+                <p>This table describes the number of connections between postal codes as well as the annual consumption in m^3 of natural gas between those two postal codes.</p>
                 {buildTable()}
                 <span>
                     <button onClick={getMore}>Get More Data</button>

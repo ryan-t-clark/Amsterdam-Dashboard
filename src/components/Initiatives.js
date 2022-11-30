@@ -211,8 +211,7 @@ const Initiatives = () => {
                         working and living in a liveable city. This special and flexible approach 
                         is gradually developing the test area into an urban district with space 
                         for open innovation, special forms of housing, sports, recreation and 
-                        greenery. The impact of what we do here is noticeable in the city, 
-                        in the country and in the world.
+                        greenery.
                         </p>
                         <a href='https://amsterdamsmartcity.com/organisations/marineterrein-amsterdam'>
                             Source (external link)
