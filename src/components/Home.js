@@ -70,7 +70,7 @@ const Home = () => {
                             <br />
                             <Link to="/dashboard">Dashboard</Link>
                             <p>
-                                The city of Amsterdam provides lots of live data feeds available to the public. Click <Link to="/dashboard">here</Link> to view some of them.
+                                The city of Amsterdam provides lots data available to the public. Click <Link to="/dashboard">here</Link> to view some of them.
                             </p>
                         </CardContent>
                     </Card>
